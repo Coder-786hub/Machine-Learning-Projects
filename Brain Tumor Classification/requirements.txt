@@ -1,0 +1,6 @@
+streamlit==1.39.0  # Ensure compatibility with your version of Streamlit
+scikit-learn==1.5.1  # For loading models with joblib and using vectorizers
+joblib==1.4.2  # To handle loading and saving the model and vectorizer
+numpy==1.26.4  # Required by scikit-learn for numerical computations
+pandas==2.2.2  # If you're using it for any data handling
+pillow==10.4.0
